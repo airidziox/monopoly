@@ -1,0 +1,100 @@
+/*COLORS*/
+.light-blue {
+    background-color: #d2eaf5 !important;
+}
+
+.brown {
+    background-color: rgba(119, 72, 0, 0.87) !important;
+}
+
+.dark-blue {
+    background-color: #5a6dba !important;
+}
+
+.green {
+    background-color: #41994e !important;
+}
+
+.yellow {
+    background-color: #ffed20 !important;
+}
+
+.red {
+    background-color: #f50c2b !important;
+}
+
+.orange {
+    background-color: #fa811d !important;
+}
+
+.pink {
+    background-color: #b02f7c !important;
+}
+
+.grey {
+    background-color: #8a8a8a !important;
+}
+
+
+/*BOARD*/
+
+.board {
+    height: 899px;
+    display: grid;
+    grid-template-columns: 100px repeat(9, 75px) 100px;
+    grid-template-rows: 100px repeat(9, 75px) 100px;
+    gap: 2px;
+    border: 2px solid black;
+    background-color: black;
+    position: relative;
+}
+
+.tile {
+    background-color: white;
+    font-size: 9px;
+    position: relative;
+}
+
+.color-bar {
+    height: 10px;
+}
+
+.playersStats {
+    width: 40%;
+}
+
+.monopolyMan {
+    position: absolute;
+    background-image: url("https://images8.alphacoders.com/424/424113.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: 1;
+    height: 691px;
+    width: 691px;
+    left: 102px;
+    top: 102px;
+}
+
+.showCard {
+    position: absolute;
+    height: auto;
+    width: 240px;
+    left: 225px;
+    top: 150px;
+    padding: 20px;
+}
+
+.showBoughtCard {
+    position: absolute;
+    height: auto;
+    width: 240px;
+    left: 225px;
+    top: 150px;
+    padding: 20px;
+}
+
+.propertyName {
+    height: 50px;
+}
+
